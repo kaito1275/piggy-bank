@@ -3,19 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A28292E525D7296A00725CF9 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28292E425D7296A00725CF9 /* SettingsTableViewController.swift */; };
+		A293358525CD8053006ABAD6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293358425CD8053006ABAD6 /* RegisterViewController.swift */; };
+		A293358C25CE503C006ABAD6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A293358B25CE503C006ABAD6 /* TabBarController.swift */; };
+		A296310025CF9B6B004D993A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29630FF25CF9B6B004D993A /* HomeViewController.swift */; };
 		A2D034AF25CD6BE3004741BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D034AE25CD6BE3004741BF /* AppDelegate.swift */; };
 		A2D034B125CD6BE3004741BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D034B025CD6BE3004741BF /* SceneDelegate.swift */; };
 		A2D034B325CD6BE3004741BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D034B225CD6BE3004741BF /* ViewController.swift */; };
 		A2D034B625CD6BE3004741BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D034B425CD6BE3004741BF /* Main.storyboard */; };
 		A2D034B825CD6BE5004741BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D034B725CD6BE5004741BF /* Assets.xcassets */; };
 		A2D034BB25CD6BE5004741BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D034B925CD6BE5004741BF /* LaunchScreen.storyboard */; };
+		A2D034C925CD6F10004741BF /* top-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = A2D034C825CD6F10004741BF /* top-animation.json */; };
+		A2E77F3825D11A7C0043A60B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2E77F3725D11A7C0043A60B /* GoogleService-Info.plist */; };
+		A2FFDF1025D162FF0010D8FA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFDF0F25D162FF0010D8FA /* HistoryViewController.swift */; };
+		A2FFDF1425D169410010D8FA /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FFDF1325D169410010D8FA /* HistoryModel.swift */; };
+		D99ED78A9A3B0166E79B049A /* Pods_PiggyBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF703AC96ADE983EE6A6259 /* Pods_PiggyBank.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8086A8FA116F09C2854B04E8 /* Pods-PiggyBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiggyBank.release.xcconfig"; path = "Target Support Files/Pods-PiggyBank/Pods-PiggyBank.release.xcconfig"; sourceTree = "<group>"; };
+		A28292E425D7296A00725CF9 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		A293358425CD8053006ABAD6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A293358B25CE503C006ABAD6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A29630FF25CF9B6B004D993A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A2D034AB25CD6BE3004741BF /* PiggyBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiggyBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D034AE25CD6BE3004741BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2D034B025CD6BE3004741BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,12 @@
 		A2D034B725CD6BE5004741BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D034BA25CD6BE5004741BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2D034BC25CD6BE5004741BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D034C825CD6F10004741BF /* top-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "top-animation.json"; sourceTree = "<group>"; };
+		A2E77F3725D11A7C0043A60B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A2FFDF0F25D162FF0010D8FA /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A2FFDF1325D169410010D8FA /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		BCF703AC96ADE983EE6A6259 /* Pods_PiggyBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PiggyBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC28870FD4CE7FA1113BCA1 /* Pods-PiggyBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiggyBank.debug.xcconfig"; path = "Target Support Files/Pods-PiggyBank/Pods-PiggyBank.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99ED78A9A3B0166E79B049A /* Pods_PiggyBank.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A293358225CD802B006ABAD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2D034B225CD6BE3004741BF /* ViewController.swift */,
+				A293358425CD8053006ABAD6 /* RegisterViewController.swift */,
+				A293358B25CE503C006ABAD6 /* TabBarController.swift */,
+				A29630FF25CF9B6B004D993A /* HomeViewController.swift */,
+				A2FFDF0F25D162FF0010D8FA /* HistoryViewController.swift */,
+				A28292E425D7296A00725CF9 /* SettingsTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		A2D034A225CD6BE3004741BF = {
 			isa = PBXGroup;
 			children = (
 				A2D034AD25CD6BE3004741BF /* PiggyBank */,
 				A2D034AC25CD6BE3004741BF /* Products */,
+				A94644557683E1E29F030A5A /* Pods */,
+				AF5649131EAD78A23DD76A30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +94,41 @@
 			children = (
 				A2D034AE25CD6BE3004741BF /* AppDelegate.swift */,
 				A2D034B025CD6BE3004741BF /* SceneDelegate.swift */,
-				A2D034B225CD6BE3004741BF /* ViewController.swift */,
+				A2FFDF1225D1692C0010D8FA /* Model */,
+				A293358225CD802B006ABAD6 /* Controller */,
 				A2D034B425CD6BE3004741BF /* Main.storyboard */,
 				A2D034B725CD6BE5004741BF /* Assets.xcassets */,
 				A2D034B925CD6BE5004741BF /* LaunchScreen.storyboard */,
 				A2D034BC25CD6BE5004741BF /* Info.plist */,
+				A2E77F3725D11A7C0043A60B /* GoogleService-Info.plist */,
+				A2D034C825CD6F10004741BF /* top-animation.json */,
 			);
 			path = PiggyBank;
+			sourceTree = "<group>";
+		};
+		A2FFDF1225D1692C0010D8FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2FFDF1325D169410010D8FA /* HistoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A94644557683E1E29F030A5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFC28870FD4CE7FA1113BCA1 /* Pods-PiggyBank.debug.xcconfig */,
+				8086A8FA116F09C2854B04E8 /* Pods-PiggyBank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF5649131EAD78A23DD76A30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF703AC96ADE983EE6A6259 /* Pods_PiggyBank.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2D034BF25CD6BE5004741BF /* Build configuration list for PBXNativeTarget "PiggyBank" */;
 			buildPhases = (
+				75744E472062CA7298E81862 /* [CP] Check Pods Manifest.lock */,
 				A2D034A725CD6BE3004741BF /* Sources */,
 				A2D034A825CD6BE3004741BF /* Frameworks */,
 				A2D034A925CD6BE3004741BF /* Resources */,
+				E1846D1A079CAC29F7F543B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D034BB25CD6BE5004741BF /* LaunchScreen.storyboard in Resources */,
+				A2D034C925CD6F10004741BF /* top-animation.json in Resources */,
+				A2E77F3825D11A7C0043A60B /* GoogleService-Info.plist in Resources */,
 				A2D034B825CD6BE5004741BF /* Assets.xcassets in Resources */,
 				A2D034B625CD6BE3004741BF /* Main.storyboard in Resources */,
 			);
@@ -132,14 +200,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75744E472062CA7298E81862 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PiggyBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1846D1A079CAC29F7F543B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PiggyBank/Pods-PiggyBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PiggyBank/Pods-PiggyBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PiggyBank/Pods-PiggyBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2D034A725CD6BE3004741BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A293358C25CE503C006ABAD6 /* TabBarController.swift in Sources */,
 				A2D034B325CD6BE3004741BF /* ViewController.swift in Sources */,
+				A2FFDF1425D169410010D8FA /* HistoryModel.swift in Sources */,
 				A2D034AF25CD6BE3004741BF /* AppDelegate.swift in Sources */,
 				A2D034B125CD6BE3004741BF /* SceneDelegate.swift in Sources */,
+				A293358525CD8053006ABAD6 /* RegisterViewController.swift in Sources */,
+				A28292E525D7296A00725CF9 /* SettingsTableViewController.swift in Sources */,
+				A2FFDF1025D162FF0010D8FA /* HistoryViewController.swift in Sources */,
+				A296310025CF9B6B004D993A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +399,7 @@
 		};
 		A2D034C025CD6BE5004741BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC28870FD4CE7FA1113BCA1 /* Pods-PiggyBank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +413,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.official-kaitooooo.PiggyBank";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A2D034C125CD6BE5004741BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8086A8FA116F09C2854B04E8 /* Pods-PiggyBank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.official-kaitooooo.PiggyBank";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
